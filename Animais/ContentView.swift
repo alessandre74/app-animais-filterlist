@@ -37,7 +37,6 @@ struct ContentView: View {
       .foregroundColor(.white)
 
       // Lista animais filtradas conform a variavel de estado type
-
       VStack {
         ForEach(ArrayAnimais().filterAnimais(type: type)) { iten in
           Text(iten.name)
